@@ -1,0 +1,345 @@
+/* Style Sheet
+
+    Colors: 
+        #F8B313
+        #FDF2F0
+
+*/
+/*  Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    z-index: 2;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ 
+body{
+    background: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecera{
+    width: 100%;
+    height: 74px;
+    background: #000000;
+    border-bottom: 0.5px solid blanchedalmond;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    background-size: cover;
+    height: 53px;
+}
+
+.logo{
+   padding-top: 10px;
+   margin-left: 75px;
+}
+.navBar{
+    float: right;
+    margin-right: 70px;
+    margin-top: 17px;
+
+}
+.navBar li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 18px;
+}
+.navBar li a{
+    text-decoration: none;
+    color:blanchedalmond;
+    font-size: 15px;
+    align-items: center;
+    text-transform: uppercase;
+    transition: 300ms all;
+    
+}
+.navBar li a:hover{
+    color:#F8B313 ;
+}
+
+.banner{
+    height: 350px;
+    background: url(https://d23sy9fe9womrt.cloudfront.net/0/55140_2_the-best-reggae-dub-and-ska-festivals-_ban.jpg)no-repeat center top;
+    background-size: cover;
+    color: #F8B313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    border-bottom: 0.5px solid blanchedalmond;
+    font-family: 'Nunito', sans-serif;
+    position: relative;
+}
+
+.banner::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position:absolute;
+    z-index: 1;
+}
+
+.information{
+    width: 100%;
+    padding-top: 60px;
+}
+
+    .information p {
+        max-width: 500px;
+        margin: 0 auto;
+        color: blanchedalmond;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .information p b{
+        color: #F8B313;
+    }
+
+.fon{
+    background:  #211917;
+    max-width: 550px;
+    margin: 0 auto;
+    }
+
+.section{
+    width: 100%;
+    padding-top: 60px;
+}
+    .tittle{
+        font-size: 30px;
+        margin-left: 75px;
+        color: #F8B313;
+        margin-bottom: 65px;
+    }
+    .artist img{
+        width: 200px;
+        height: 200px;
+        border-radius:150px;
+        border: 1px solid blanchedalmond;
+    }
+    .artist li{
+        display: inline-block;
+        padding: 0 35px;
+        padding-bottom: 10px;
+    }
+    .artist ul{
+        margin-left: 120px;
+    }
+    .artist li a{
+        margin-top: 10px;
+        color: blanchedalmond;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .artist li a:hover{
+        color: #F8B313;
+    }
+
+.classic{
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFEFBA, #FFFFFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFEFBA, #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 30px;
+}
+.classic h2{
+    color: #000000;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.classic img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+.classic li{
+    display: inline-block;
+    padding: 0 35px;
+    padding-bottom: 10px;
+}
+.classic ul{
+    margin-left: 120px;
+}
+.classic li a{
+    margin-top: 10px;
+    color:#000000;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.classic li a:hover{
+    color: #F8B313;
+}
+.classic li p{
+    color:#000000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.album img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blanchedalmond;
+}
+.album li{
+    display: inline-block;
+    padding: 0 35px;
+    padding-bottom: 10px;
+}
+.album ul{
+    margin-left: 120px;
+}
+.album li a{
+    margin-top: 10px;
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album  li a:hover{
+    color: #F8B313;
+}
+.album  li p{
+    color:#F8B313 ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 30px;
+}
+
+.radio{
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right #FFFFFF,  #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-bottom: 30px;
+    border-bottom: 0.5px solid #000000;
+}
+.radio h2{
+    font-family: 'Nunito', sans-serif;
+    color: #000000;
+}
+.radio img{
+    width: 200px;
+    height: 200px;
+    border-radius:150px;
+    border: 1px solid blanchedalmond;
+}
+.radio li{
+    display: inline-block;
+    padding: 0 35px;
+    padding-bottom: 10px;
+}
+.radio ul{
+    margin-left: 120px;
+}
+.radio li p{
+    margin-top: 10px ;
+    color:#000000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: 25px;
+    
+}
+.radio li p:hover{
+    color: #F8B313;
+}
+
+footer{
+    clear: both;
+    background: #f0e68c;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.footer li{
+    display: inline-block;
+    padding: 0  10px;
+}
+
+.footer li a{
+    font-size: 25px;
+    color: #000000;
+}
+
+.footer li .Facebook:hover{
+    color: #3b5998 ;
+    
+}
+.footer li .Whatsapp:hover{
+    color: #00bb2d;
+    
+}
+.footer li .Instagram:hover{
+    color: #dd2a7b;
+    
+}
+.footer li .Twitter:hover{
+    color: #00acee;
+    
+}
+
+.footer p{
+    margin-top: 10px;
+}
